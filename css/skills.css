@@ -1,0 +1,85 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/background_clear.jpg");
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.heading {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: var(--main-color);
+}
+
+/* .skills .skills-row { */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/*   gap: 5rem; */
+/* } */
+.skills-col {
+  max-width: 80rem;
+  width: 75%;
+  padding-top: 5rem;
+}
+
+.skills-box .skills-content {
+  position: relative;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.skills-content .progress {
+  padding: 1rem 0;
+}
+
+.skills-content .progress h3 {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-content .progress h3 span {
+  color: var(--text-color);
+}
+
+.skills-content .progress .bar {
+  height: 2.5rem;
+  border-radius: 0.6rem;
+  border: 0.2rem solid var(--main-color);
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.skills-content .progress .bar span {
+  display: block;
+  height: 100%;
+  border-radius: 0.3rem;
+  background: var(--main-color);
+}
+
+/* .skills-content .progress:nth-child(1) .bar span { */
+/*   width: 90%; */
+/* } */
+
+/* .skills-content .progress:nth-child(2) .bar span { */
+/*   width: 80%; */
+/* } */
+
+/* .skills-content .progress:nth-child(3) .bar span { */
+/*   width: 70%; */
+/* } */
+
+/* .skills-content .progress:nth-child(4) .bar span { */
+/*   width: 60%; */
+/* } */

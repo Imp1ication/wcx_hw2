@@ -8,23 +8,14 @@
   background-size: cover;
   background-position: top;
   min-height: 100vh;
-  /* padding-bottom: 6rem; */
-
-  /* min-height: 100vh; */
-  /* width: 100%; */
-  /* background: url(../img/background_clear.jpg) no-repeat; */
-  /* background-size: cover; */
-  /* background-position: top; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* padding: 0 10%; */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .heading {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 span {
@@ -33,8 +24,8 @@ span {
 
 .about-img {
   position: relative;
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -45,17 +36,6 @@ span {
   width: 90%;
   border-radius: 50%;
   border: 0.2rem solid var(--main-color);
-}
-
-.about-content {
-  max-width: 800px;
-  width: 100%;
-}
-
-.about-content h1 {
-  font-size: 46px;
-  font-weight: 700;
-  color: var(--text-color);
 }
 
 .about-img .circle-spin {
@@ -72,13 +52,30 @@ span {
   border-right: 0.2rem solid var(--main-color);
 }
 
-.about-content h3 {
+.about-content {
   text-align: center;
-  font-size: 2rem;
+  max-width: 60%;
+}
+
+.about-content h1 {
+  font-size: 2.6rem;
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--main-color);
+  justify-content: space-between;
 }
 
 .about-content p {
-  text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin: 2rem 0 3rem;
+  line-height: 3rem;
+}
+
+.about-content span {
+  color: var(--second-color);
+  margin-left: 1rem;
+  margin-right: 2rem;
 }

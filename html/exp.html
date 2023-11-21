@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Computing and XML: HW2</title>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/exp.css" />
+
+    <!-- custom js link -->
+    <script src="../js/script.js"></script>
+
+    <!-- box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="../html/exp.html" class="active">Experience</a></li>
+        <li><a href="../html/skills.html">Skills</a></li>
+        <li><a href="../html/resume.html">Resume</a></li>
+      </ul>
+    </header>
+
+    <section class="exp" id="exp">
+      <h1 class="heading">My <span>Journey</span></h1>
+
+      <div class="exp-row">
+        <div class="edu-column">
+          <h3 class="title">Education</h3>
+          <div class="exp-box"></div>
+        </div>
+
+        <div class="exp-column">
+          <h3 class="title">Experience</h3>
+          <div class="exp-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        updateExperienceSection();
+      });
+    </script>
+  </body>
+</html>

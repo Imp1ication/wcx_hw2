@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/about.css" />
 
+    <!-- custom js link -->
+    <script src="../js/script.js"></script>
+
     <!-- box icons link -->
     <link
       rel="stylesheet"
@@ -23,46 +26,40 @@
 
       <ul class="navbar">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="../about.html" class="active">About</a></li>
-        <li><a href="#">BBBB</a></li>
+        <li><a href="../html/about.html" class="active">About</a></li>
+        <li><a href="../html/exp.html">Experience</a></li>
+        <li><a href="../html/skills.html">Skills</a></li>
         <li><a href="../html/resume.html">Resume</a></li>
       </ul>
     </header>
 
     <section class="about" id="about">
-      <!-- TODO: -->
       <h1 class="heading">About <span>Me</span></h1>
 
       <div class="about-img">
-        <img src="../img/about.jpg" alt="" />
+        <img src="../img/profilePicture.jpg" alt="" />
         <span class="circle-spin"></span>
       </div>
 
       <div class="about-content">
-        <h3>Hi, I'm </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptas, quos, fugit, voluptates quibusdam quia quae dolorum
-          voluptatem officiis quidem consequatur voluptatibus? Quisquam
-          voluptas, quos, fugit, voluptates quibusdam quia quae dolorum
-          voluptatem officiis quidem consequatur voluptatibus?
-        </p>
+        <h1 id="about-name"></h1>
+        <h3 id="about-contact">
+          <b>Email: </b><span id="about-email"></span>
+          <b>Phone: </b><span id="about-phone"></span>
+        </h3>
 
+        <p id="about-intro"></p>
 
-        <!-- <div class="social-icons"> -->
-        <!--   <a href="#" class="social-icon"> -->
-        <!-- <i class="bx bxl-facebook"></i> -->
-        <!--   </a> -->
-        <!--   <a href="#" class="social-icon"> -->
-        <!-- <i class="bx bxl-twitter"></i> -->
-        <!--   </a> -->
-        <!--   <a href="#" class="social-icon"> -->
-        <!-- <i class="bx bxl-instagram"></i> -->
-        <!--   </a> -->
-        <!--   <a href="#" class="social-icon"> -->
-        <!-- <i class="bx bxl-linkedin"></i> -->
-        <!--   </a> -->
-        <!-- </div> -->
+        <script>
+          function handleContent(id, content) {
+            document.getElementById(id).innerHTML = content;
+          }
+
+          fetchResumeContent("name", handleContent.bind(null, "about-name"));
+          fetchResumeContent("introduction", handleContent.bind(null, "about-intro"));
+          fetchResumeContent("email", handleContent.bind(null, "about-email"));
+          fetchResumeContent("phone", handleContent.bind(null, "about-phone"));
+        </script>
 
     </section>
   </body>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resume>
   <personalInformation>
-    <profilePicture image="profilePicture.png"></profilePicture>
-    <name>張睿恩</name>
+    <profilePicture image="../img/profilePicture.jpg"></profilePicture>
+    <name>Ryan Chang</name>
     <contact>
       <email>40947075s@ntnu.edu.tw</email>
       <phone>09xx-xxx-xxx</phone>
-      <github>https://github.com/40947075s</github>
+      <github>https://github.com/Imp1ication</github>
     </contact>
-    <introduction>早安你好，這是我的簡介。</introduction>
+    <introduction>早安你好，這是我的簡介。
+      我晝伏夜出，是一個賣油小能手，是肥宅的好幫手。</introduction>
   </personalInformation>
 
   <educations>
@@ -23,27 +24,83 @@
         <specialExperience>特殊經歷2</specialExperience>
       </specialExperiences>
     </education>
+    <education>
+      <degree>高中</degree>
+      <school>臺北市立建國高級中學</school>
+      <department></department>
+      <entranceYear>2014</entranceYear>
+      <graduationYear>2017</graduationYear>
+      <specialExperiences>
+        <specialExperience>社團經歷1</specialExperience>
+        <specialExperience>特殊經歷2</specialExperience>
+      </specialExperiences>
+    </education>
   </educations>
 
   <experiences>
     <experience>
-      <jobTitle>工作職稱</jobTitle>
+      <jobTitle>工作1</jobTitle>
       <company>公司名稱</company>
-      <year>工作年份</year>
+      <startDate>2010/1/1</startDate>
+      <endDate>2015/2/2</endDate>
       <responsibilities>
-        <responsibility>負責的工作內容1</responsibility>
-        <responsibility>負責的工作內容2</responsibility>
+        <responsibility>負責的工作內容1-1</responsibility>
+        <responsibility>負責的工作內容1-2</responsibility>
       </responsibilities>
-      <discription>工作描述</discription>
+      <description>工作描述1</description>
+    </experience>
+
+    <experience>
+      <jobTitle>工作2</jobTitle>
+      <company>公司名稱</company>
+      <startDate>2015/3/3</startDate>
+      <endDate>2018/8/8</endDate>
+      <responsibilities>
+        <responsibility>負責的工作內容2-1</responsibility>
+        <responsibility>負責的工作內容2-2</responsibility>
+      </responsibilities>
+      <description>工作描述2</description>
+    </experience>
+
+    <experience>
+      <jobTitle>工作3</jobTitle>
+      <company>公司名稱</company>
+      <startDate>2019/4/4</startDate>
+      <endDate>-</endDate>
+      <responsibilities>
+        <responsibility>負責的工作內容3-1</responsibility>
+        <responsibility>負責的工作內容3-2</responsibility>
+      </responsibilities>
+      <description>工作描述3</description>
     </experience>
   </experiences>
 
   <skills>
     <programmingLanguages>
-      <programmingLanguage>C/C++</programmingLanguage>
-      <programmingLanguage>Java</programmingLanguage>
-      <programmingLanguage>Python</programmingLanguage>
-      <programmingLanguage>JavaScript</programmingLanguage>
+      <programmingLanguage>
+        <name>C/C++</name>
+        <proficiency>75</proficiency>
+      </programmingLanguage>
+
+      <programmingLanguage>
+        <name>Java</name>
+        <proficiency>70</proficiency>
+      </programmingLanguage>
+
+      <programmingLanguage>
+        <name>Python</name>
+        <proficiency>80</proficiency>
+      </programmingLanguage>
+
+      <programmingLanguage>
+        <name>HTML+CSS</name>
+        <proficiency>60</proficiency>
+      </programmingLanguage>
+
+      <programmingLanguage>
+        <name>JavaScript</name>
+        <proficiency>50</proficiency>
+      </programmingLanguage>
     </programmingLanguages>
     <languages>
       <language>

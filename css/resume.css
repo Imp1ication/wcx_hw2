@@ -79,3 +79,22 @@
 
   overflow: auto;
 }
+
+@media (max-width: 1550px) {
+  .resume {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../img/background_clear.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0% 6rem 0%;
+  }
+  .resume-content {
+    text-align: center;
+  }
+}
