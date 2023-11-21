@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Computing and XML: HW2</title>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../css/util.css" />
+    <link rel="stylesheet" href="../css/resume.css" />
+
+    <!-- box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="#">BBBB</a></li>
+        <li><a href="../html/resume.html" class="active">Resume</a></li>
+      </ul>
+    </header>
+
+    <section class="resume" id="resume">
+      <div class="resume-content">
+        <h1>resume.xml</h1>
+
+        <div class="resume-sci">
+          <a
+            title="Download resume.xml"
+            href="../downloads/resume.xml"
+            download
+          >
+            <i class="bx bx-download"></i>
+          </a>
+          <a
+            title="Open resume.xml in new tab"
+            href="../downloads/resume.xml"
+            target="_blank"
+          >
+            <i class="bx bx-expand-horizontal"></i>
+          </a>
+        </div>
+
+        <iframe
+          id="xml-viewer"
+          src="../downloads/resume.xml"
+          scrolling="auto"
+        ></iframe>
+      </div>
+    </section>
+  </body>
+</html>

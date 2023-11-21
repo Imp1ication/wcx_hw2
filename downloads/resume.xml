@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+  <personalInformation>
+    <profilePicture image="profilePicture.png"></profilePicture>
+    <name>張睿恩</name>
+    <contact>
+      <email>40947075s@ntnu.edu.tw</email>
+      <phone>09xx-xxx-xxx</phone>
+      <github>https://github.com/40947075s</github>
+    </contact>
+    <introduction>早安你好，這是我的簡介。</introduction>
+  </personalInformation>
+
+  <educations>
+    <education>
+      <degree>學士</degree>
+      <school>國立臺灣師範大學</school>
+      <department>資訊工程學系</department>
+      <entranceYear>2020</entranceYear>
+      <graduationYear>2024</graduationYear>
+      <specialExperiences>
+        <specialExperience>社團經歷1</specialExperience>
+        <specialExperience>特殊經歷2</specialExperience>
+      </specialExperiences>
+    </education>
+  </educations>
+
+  <experiences>
+    <experience>
+      <jobTitle>工作職稱</jobTitle>
+      <company>公司名稱</company>
+      <year>工作年份</year>
+      <responsibilities>
+        <responsibility>負責的工作內容1</responsibility>
+        <responsibility>負責的工作內容2</responsibility>
+      </responsibilities>
+      <discription>工作描述</discription>
+    </experience>
+  </experiences>
+
+  <skills>
+    <programmingLanguages>
+      <programmingLanguage>C/C++</programmingLanguage>
+      <programmingLanguage>Java</programmingLanguage>
+      <programmingLanguage>Python</programmingLanguage>
+      <programmingLanguage>JavaScript</programmingLanguage>
+    </programmingLanguages>
+    <languages>
+      <language>
+        <name>中文</name>
+        <proficiency>母語</proficiency>
+      </language>
+      <language>
+        <name>英文</name>
+        <proficiency>流利</proficiency>
+      </language>
+    </languages>
+  </skills>
+
+  <projects>
+    <project>
+      <name>專案名稱</name>
+      <url>專案連結</url>
+      <description>專案描述</description>
+      <techUsed>
+        <tech>
+          <name>技術1</name>
+          <discription>描述1</discription>
+        </tech>
+        <tech>
+          <name>技術2</name>
+          <discription>描述2</discription>
+        </tech>
+      </techUsed>
+    </project>
+  </projects>
+</resume>
