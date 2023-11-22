@@ -1,3 +1,4 @@
+// XML handler
 function fetchResumeContent(id, callback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "../downloads/resume.xml", true);
