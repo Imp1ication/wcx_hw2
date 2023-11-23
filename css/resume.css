@@ -82,6 +82,8 @@
   width: 100%;
   height: 70rem;
 
+  color: var(--text-color);
+
   border: 0.2rem solid var(--second-color);
   border-radius: 0.8rem;
 

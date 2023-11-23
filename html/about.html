@@ -7,7 +7,7 @@
 
     <!-- custom css link -->
     <link rel="stylesheet" href="/wcx_hw2/css/style.css" />
-    <link rel="stylesheet" href="/wcx_hw2/css/about.css" />
+    <link rel="stylesheet" href="/wcx_hw2//css/about.css" />
 
 
     <!-- box icons link -->
@@ -27,7 +27,6 @@
         <li><a href="/wcx_hw2/html/about.html" class="active">About</a></li>
         <li><a href="/wcx_hw2/html/exp.html">Experience</a></li>
         <li><a href="/wcx_hw2/html/skills.html">Skills</a></li>
-        <li><a href="/wcx_hw2/html/resume.html">Resume</a></li>
       </ul>
     </header>
 
@@ -35,7 +34,7 @@
       <h1 class="heading">About <span>Me</span></h1>
 
       <div class="about-img">
-        <img src="../img/profilePicture.jpg" alt="" />
+        <img src="/wcx_hw2/img/profilePicture.jpg" alt="" />
         <span class="circle-spin"></span>
       </div>
 
@@ -59,6 +58,33 @@
           fetchResumeContent("email", handleContent.bind(null, "about-email"));
           fetchResumeContent("phone", handleContent.bind(null, "about-phone"));
         </script>
+
+          <div class="resume-sci">
+            <a
+              title="Download resume.xml"
+              href="/wcx_hw2/downloads/resume.xml"
+              download
+            >
+              <svg xmlns="http://www.w3.org/2000/svg">
+                <path d="m12 16 4-5h-3V4h-2v7H8z"></path>
+                <path
+                  d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              title="Open resume.xml in new tab"
+              href="/wcx_hw2/downloads/resume.xml"
+              target="_blank"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg">
+                <path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path>
+                <path
+                  d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+                ></path>
+              </svg>
+            </a>
+          </div>
 
     </section>
 

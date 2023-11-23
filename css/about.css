@@ -81,6 +81,58 @@ span {
   margin-right: 2rem;
 }
 
+.resume-sci {
+  width: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-sci svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--main-color);
+}
+
+.resume-sci svg:hover {
+  fill: var(--background-color);
+}
+
+.resume-sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.resume-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--main-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.resume-sci a:hover::before {
+  width: 100%;
+}
+
+.resume-sci a:hover {
+  color: var(--bg-color);
+}
+
 @keyframes aboutSpinner {
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
